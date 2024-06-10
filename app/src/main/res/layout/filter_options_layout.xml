@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/home_background_color"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/ageMinEditText"
+        android:layout_width="372dp"
+        android:layout_height="50dp"
+        android:background="@drawable/editor_background_design"
+        android:hint="@string/minimum_age"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/future"
+        android:paddingStart="8dp"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ageMaxEditText"
+        android:layout_width="372dp"
+        android:layout_height="50dp"
+        android:background="@drawable/editor_background_design"
+        android:hint="@string/maximum_age"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/future"
+        android:paddingStart="8dp"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:id="@+id/genderRadioGroup"
+        android:layout_width="372dp"
+        android:layout_height="50dp"
+        android:background="@drawable/editor_background_design"
+        android:orientation="horizontal"
+
+        android:paddingStart="8dp"
+        android:layout_marginBottom="5dp">
+
+        <RadioButton
+            android:id="@+id/maleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/future"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/femaleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/future"
+            android:text="@string/female" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="372dp"
+        android:layout_height="50dp"
+        android:background="@drawable/editor_background_design"
+        android:paddingStart="8dp"
+        android:fontFamily="@font/future"
+        android:textColor="@color/black"
+
+        android:hint="@string/location"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:id="@+id/applyFilterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/editor_background_design"
+        android:text="@string/apply_filter"
+        android:textColor="@color/white"
+        android:fontFamily="@font/future"
+        android:layout_marginBottom="5dp" />
+
+</LinearLayout>

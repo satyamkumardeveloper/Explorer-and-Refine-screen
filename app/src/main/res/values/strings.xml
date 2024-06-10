@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Explorer Screen</string>
+    <string name="explorer">Explorer</string>
+    <string name="age">Age-</string>
+    <string name="xx">xx</string>
+    <string name="gender">Gender</string>
+    <string name="xxxxx">xxxxxx</string>
+    <string name="name">Name</string>
+    <string name="todo">TODO</string>
+    <string name="location">Location</string>
+    <string name="minimum_age">Minimum Age</string>
+    <string name="maximum_age">Maximum Age</string>
+    <string name="apply_filter">Apply Filter</string>
+    <string name="select_gender_prompt">Select Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+
+</resources>
